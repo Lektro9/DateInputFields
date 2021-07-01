@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+  </head>
+  <body>
+    <div id="dateinputfields">
+      <input autocomplete="bday-day" type="number" placeholder="tt" pattern="[0-9]*" id="day">
+      <input autocomplete="bday-month" type="number" placeholder="mm" pattern="[0-9]*" min="1" max="12" id="month">
+      <input autocomplete="bday-year" type="number" placeholder="jjjj" pattern="[0-9]*" id="year">
+      <div id="dateError"></div>
+    </div>
+    <input type="date" id="mydate">
+    <p id="myoutput"></p>
+    <script src="bundle.js"></script>
+  </body>
+</html>
